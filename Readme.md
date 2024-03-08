@@ -1,5 +1,5 @@
 # ShortLink
-Shorten your link.
+Shorten your links.
 
 ## Contribution 
 Feel free to add issues and comments
