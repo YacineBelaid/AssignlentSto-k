@@ -1,4 +1,4 @@
-import { Key, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { getData } from './../services/data.service'
 import {
     CalendarIcon,
@@ -12,7 +12,6 @@ import { url, urlData } from '../models/url.model';
 
 export function Panel() {
     const [urls, setUrls] = useState<Record<string,urlData>>({})
-    const [userID, setUserId] = useState("0")
     const [totalPages, setTotalPageNumber] = useState(0)
     const [numberElementPerPage, setNumberElementPerPage] = useState(0)
     const [pageNumber, setPageNumber] = useState(0)

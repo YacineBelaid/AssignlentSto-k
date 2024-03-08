@@ -3,13 +3,11 @@ import { ChevronRightIcon } from '@heroicons/react/20/solid'
 import { Nav } from './components/Flowbite/Nav'
 import { useEffect, useState } from 'react'
 import { submitData } from './services/data.service'
-import { url } from './models/url.model';
 import { Navigate } from 'react-router-dom'
-
+import screenshot from "./assets/ShortlinkPanel.png"
 
 
 function App() {
-
   const [URLtoCheck, setURLtoCheck] = useState<string>("")
   const [URLtoShorten, setURLToShorten] = useState<string>("")
 
@@ -121,7 +119,7 @@ function App() {
           <div className="mx-auto mt-16 flex max-w-2xl sm:mt-24 lg:ml-10 lg:mr-0 lg:mt-0 lg:max-w-none lg:flex-none xl:ml-32">
             <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
               <img
-                src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png"
+                src={screenshot}
                 alt="App screenshot"
                 width={2432}
                 height={1442}
