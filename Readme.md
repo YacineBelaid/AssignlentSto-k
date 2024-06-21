@@ -1,7 +1,7 @@
 # ShortLink
 Shorten your links.
 
--Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new “features.” --
+--Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new “features.” --
 
 —McIlroy, Pinson, and Tague (1978)
 ## Contribution 
